@@ -25,3 +25,9 @@ It’s safer: Kotlin is null safe, which means that we deal with possible null s
 How to install Kotlin plugin?
 
 Go to File|Settings|Plugins|Install JetBrains plugin… then search “Kotlin” and install it. If you are looking at “Welcome to Android Studio” screen, choose Configure|Plugins|Install JetBrains plugin… You’ll to restart the Android Studio to see changes after this completes.
+
+
+Play Store Link
+
+https://play.google.com/store/apps/details?id=com.mrdheerajpurohit.kotlinproject
+
