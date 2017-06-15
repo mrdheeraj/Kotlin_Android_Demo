@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/main_margin"
+        android:background="@color/color_white"
+        android:elevation="@dimen/row_item_elevation"
+        android:orientation="vertical">
+
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_margin_inside"
+            android:elevation="@dimen/row_item_elevation">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/main_margin"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textFN"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/main_margin_inside"
+                        android:text="First Name" />
+
+
+                        <EditText
+                            android:inputType="textCapWords|textCapSentences"
+                            android:id="@+id/editFN"
+                            style="?android:textAppearanceMedium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:imeOptions="actionNext"
+                            android:textColor="@color/color_black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/main_margin"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textLN"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/main_margin_inside"
+                        android:text="Last Name" />
+
+
+                        <EditText
+                            android:inputType="textCapWords|textCapSentences"
+                            android:id="@+id/editLN"
+                            style="?android:textAppearanceMedium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:imeOptions="actionNext"
+                            android:textColor="@color/color_black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/main_margin"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_view_gender"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/main_margin_inside"
+                        android:text="Gender" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_group_sex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <RadioButton
+                            android:id="@+id/radio_button_male"
+                            style="?android:textAppearanceSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Male"
+                            android:textColor="@color/color_black" />
+
+                        <RadioButton
+                            android:id="@+id/radio_button_female"
+                            style="?android:textAppearanceSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Female"
+                            android:textColor="@color/color_black" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/main_margin"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textMoblieNo"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/main_margin_inside"
+                        android:text="Mobile No." />
+
+                    <EditText
+                        android:id="@+id/editMobileNo"
+                        style="?android:textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:textColor="@color/color_black" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/main_margin"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textAddress"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/main_margin_inside"
+                        android:text="Address" />
+
+                    <EditText
+                        android:id="@+id/editAddress"
+                        style="?android:textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:inputType="textCapWords|textCapSentences"
+                        android:textColor="@color/color_black" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/main_margin"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textCity"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/main_margin_inside"
+                        android:text="City" />
+
+                    <EditText
+                        android:id="@+id/editCity"
+                        style="?android:textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:inputType="textCapWords|textCapSentences"
+                        android:textColor="@color/color_black" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/main_margin"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button_save"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/button_height"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:text="Save"
+                        android:textColor="@color/color_white"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
+
